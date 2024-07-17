@@ -1,6 +1,0 @@
-{
-    "editor.defaultFormatter": "Glavin001.unibeautify-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
-}
