@@ -17,7 +17,7 @@ export default function Home() {
         <p className="text-black font-light italic">2025</p>
       </div>
 
-      <div class="flex p-6 bg-white min-w-full rounded-xl shadow-lg justify-center space-x-4">
+      <div className="flex p-6 bg-white min-w-full rounded-xl shadow-lg justify-center space-x-4">
         <div>
           <div className="text-center text-xl font-extrabold text-black underline decoration-red-600 decoration-double">
             A VOS AGENDAS !
@@ -79,7 +79,7 @@ export default function Home() {
           src="/Banner.jpg"
           width={912}
           height={316}
-          alt="Picture of the author"
+          alt="Image de La NJEF"
         />
       </Link>
     </main>

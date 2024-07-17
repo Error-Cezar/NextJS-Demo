@@ -7,11 +7,12 @@ export default function NotFound() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* <div className="relative place-items-center"> */}
+
       <Link href="/">
       <Image
           // placeholder="blur"
           src="/404.jpg"
-          alt="NJEF"
+          alt="404"
           // width={912}
           // height={312}
           // layout="responsive"
