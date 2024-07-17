@@ -55,8 +55,6 @@ export default function Home() {
       </div>
 
       <div className="mt-24 justify-normal">
-        {/* <span className="text-black text-6xl">&#8594;  </span>  */}
-
         <Link href="https://cfef.org/NJEF.php">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hover:outline-none hover:ring-4 hover:text-yellow-400 hover:ring-blue-300">
             éditions précédentes
@@ -66,8 +64,6 @@ export default function Home() {
         <p className="font-thin text-black text-center">
           Redirect sur cfef.org
         </p>
-
-        {/* <span className="text-black text-6xl">  &#8592;</span>  */}
       </div>
 
       <Link
