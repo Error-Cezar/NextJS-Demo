@@ -6,7 +6,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-20">
+    <main className="min-h-screen">
+      <div className="flex flex-col items-center p-20">
       <div className="mb-28 flex p-6 bg-white min-w-full rounded-xl shadow-lg justify-between">
         <p className="text-black text-lg">
           <a className="text-blue-600 text-xl font-extrabold">N</a>ouvelles
@@ -19,7 +20,7 @@ export default function Home() {
 
       <div className="flex p-6 bg-white min-w-full rounded-xl shadow-lg justify-center space-x-4">
         <div>
-          <div className="text-center text-xl font-extrabold text-black underline decoration-red-600 decoration-double">
+          <div className="text-center animate-bounce text-xl font-extrabold text-black underline decoration-red-600 decoration-double">
             A VOS AGENDAS !
           </div>
 
@@ -29,7 +30,7 @@ export default function Home() {
             <a className="font-bold">Chers Amis,</a> <br></br>
             <br></br>
             Le prochain congrès
-            <a className="text-yellow-500 font-bold">NJEF</a> se déroulera les :
+            <a className="text-yellow-500 font-bold"> NJEF</a> se déroulera les :
             <br></br>
             <a className="text-red-600 font-bold italic underline underline-offset-4">
               31 janvier - 1er et 2 février 2025
@@ -63,7 +64,7 @@ export default function Home() {
           </button>
         </Link>
 
-        <p className="font-thin text-black text-center">
+        <p className="font-thin text-black text-center blink_me">
           Redirect sur cfef.org
         </p>
 
@@ -82,6 +83,33 @@ export default function Home() {
           alt="Image de La NJEF"
         />
       </Link>
+      </div>
+
+
+      <div className="mt-20 flex p-6 bg-gradient-to-b from-white to-black/50 shadow-xl justify-center">
+        <div className="text-center content-center">
+        <p className="text-black font-light italic">NJEF @ 2025</p>
+        <Link href="https://github.com/Error-Cezar/NextJS-Demo" target="_blank">
+        <p className="text-blue-600 underline text-xs italic">
+        https://github.com/Error-Cezar/NextJS-Demo
+        </p>
+        </Link>
+        <p className="text-xs opacity-0">.</p>
+        <p className="text-black text-xs"> Designed Using </p>
+        <Link href="https://nextjs.org/" target="_blank">
+        <Image
+          className="relative opacity-69 ml-24 dark:drop-shadow-[0_0_0.3rem_#ffffff70] origin-center"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180/2}
+          height={37/2}
+          priority
+        />
+        </Link>
+        </div>
+      </div>
     </main>
+
+    
   );
 }

@@ -18,6 +18,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    color:red
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
