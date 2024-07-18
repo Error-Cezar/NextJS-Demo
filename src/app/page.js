@@ -1,7 +1,7 @@
 // I love Prettier :)
 // 2nd time I wrote this, VSCode decided to screw me over (its 1AM send help)
 
-import Image from "next/image";
+import Image from "@/components/image";
 import Link from "next/link";
 
 export default function Home() {
