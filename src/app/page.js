@@ -97,7 +97,7 @@ export default function Home() {
             </p>
           </Link>
           <p className="text-xs opacity-0">.</p>
-          <p className="text-black text-xs"> Designed Using </p>
+          <p className="text-black text-xs"> Crée Avec </p>
           <Link href="https://nextjs.org/" target="_blank">
             <Image
               className="relative opacity-69 ml-24 dark:drop-shadow-[0_0_0.3rem_#ffffff70] origin-center"
@@ -108,6 +108,7 @@ export default function Home() {
               priority
             />
           </Link>
+          <p className="text-sm opacity-0">.</p>
         </div>
       </div>
     </main>
