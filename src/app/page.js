@@ -10,9 +10,9 @@ export default function Home() {
       <div className="mb-28 flex p-6 bg-white min-w-full rounded-xl shadow-lg justify-between">
         <p className="text-black text-lg">
           <a className="text-blue-600 text-xl font-extrabold">N</a>ouvelles
-          <a className="text-blue-600 text-xl font-extrabold">J</a>ournées d'
+          <a className="text-blue-600 text-xl font-extrabold"> J</a>ournées d'
           <a className="text-blue-600 text-xl font-extrabold">E</a>chographie
-          <a className="text-blue-600 text-xl font-extrabold">F</a>oetale
+          <a className="text-blue-600 text-xl font-extrabold"> F</a>oetale
         </p>
         <p className="text-black font-light italic">2025</p>
       </div>
